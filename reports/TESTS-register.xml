@@ -1,0 +1,50 @@
+<testsuite name="register.Register Account functionality" tests="4" errors="0" failures="0" skipped="4" time="0.0" timestamp="2024-10-17T11:23:01.427547" hostname="BEGNOT2228"><testcase classname="register.Register Account functionality" name="Register with mandatory fields" status="skipped" time="0"><skipped /><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Register with mandatory fields
+    Given I navigate to register page ... skipped in 0.000s
+    When I enter details into mandadory fields ... skipped in 0.000s
+    And I click on continue button ... skipped in 0.000s
+    Then Account is created ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="register.Register Account functionality" name="Register with all fields" status="skipped" time="0"><skipped /><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Register with all fields
+    Given I navigate to register page ... skipped in 0.000s
+    When I enter details into all fields ... skipped in 0.000s
+    And I click on continue button ... skipped in 0.000s
+    Then Account is created ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="register.Register Account functionality" name="Register with a duplicate email address" status="skipped" time="0"><skipped /><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Register with a duplicate email address
+    Given I navigate to register page ... skipped in 0.000s
+    When I enter details into all fields except email field ... skipped in 0.000s
+    And I enter existing accounts email into email field ... skipped in 0.000s
+    And I click on continue button ... skipped in 0.000s
+    Then proper warning message informing about duplicate account is displayed ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="register.Register Account functionality" name="Register without providing any details" status="skipped" time="0"><skipped /><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Register without providing any details
+    Given I navigate to register page ... skipped in 0.000s
+    When I dont enter anything into the fields ... skipped in 0.000s
+    And I click on continue button ... skipped in 0.000s
+    Then proper warning messages for every mandatory fields are displayed ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

@@ -1,0 +1,31 @@
+# Byte-compiled Python dosyaları
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ortam ve paket yönetimi
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Proje ve IDE ayar dosyaları
+*.pyproj
+*.sln
+*.vscode/
+.idea/
+
+# Log dosyaları ve geçici dosyalar
+*.log
+*.bak
+*.swp
+
+# Geniş çaplı dosyalar
+*.zip
+*.tar.gz
+*.rar
+
+# Derleme çıktıları
+build/
+dist/

@@ -1,0 +1,61 @@
+<testsuite name="login.Login Functionality" tests="5" errors="0" failures="0" skipped="5" time="0.0" timestamp="2024-10-17T11:23:01.415163" hostname="BEGNOT2228"><testcase classname="login.Login Functionality" name="Login with valid credentials" status="skipped" time="0"><skipped /><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Login with valid credentials
+    Given I navigated to login page ... skipped in 0.000s
+    When I enter valid email address and valid password into the fields ... skipped in 0.000s
+    And I click on Login button ... skipped in 0.000s
+    Then I should get logged in ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="login.Login Functionality" name="Login with invalid email and valid password" status="skipped" time="0"><skipped /><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Login with invalid email and valid password
+    Given I navigated to login page ... skipped in 0.000s
+    When I enter valid invalid email address and valid password into the fields ... skipped in 0.000s
+    And I click on Login button ... skipped in 0.000s
+    Then I should get a proper warning message ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="login.Login Functionality" name="Login with valid email and invalid password" status="skipped" time="0"><skipped /><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Login with valid email and invalid password
+    Given I navigated to login page ... skipped in 0.000s
+    When I enter valid valid email address and invalid password into the fields ... skipped in 0.000s
+    And I click on Login button ... skipped in 0.000s
+    Then I should get a proper warning message ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="login.Login Functionality" name="Login with invalid credentials" status="skipped" time="0"><skipped /><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Login with invalid credentials
+    Given I navigated to login page ... skipped in 0.000s
+    When I enter invalid valid email address and invalid password into the fields ... skipped in 0.000s
+    And I click on Login button ... skipped in 0.000s
+    Then I should get a proper warning message ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="login.Login Functionality" name="Login without entering any credentials" status="skipped" time="0"><skipped /><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Login without entering any credentials
+    Given I navigated to login page ... skipped in 0.000s
+    When I don't enter any credentials into the fields ... skipped in 0.000s
+    And I click on Login button ... skipped in 0.000s
+    Then I should get a proper warning message ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>
